@@ -1,0 +1,17 @@
+S -> W
+W -> E | E W
+E -> G id ( C ) { P } | G id ( ) { P } | Y | X | Q
+P -> N | N P
+N -> Y | X | Q
+C -> H | H , C
+H -> G id | G id = B | id = B
+Y -> J | Y J
+J -> F | R | break ; | continue ;
+X -> for ( H ; T ; H ) { P } | while ( T ) { P }
+Q -> if ( T ) { Y } | if ( T ) { Y } else { Y }
+F -> G id = B ; | id = B ;
+B -> id | B + B | B - B | B * B | B / B
+T -> id L id
+L -> > | < | >= | <= | == | !=
+G -> int | bool | double | float | void
+R -> return ; | return id ;

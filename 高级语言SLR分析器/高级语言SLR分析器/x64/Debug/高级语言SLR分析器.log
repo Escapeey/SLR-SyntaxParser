@@ -1,0 +1,228 @@
+﻿  Item.cpp
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\Item.cpp(62,23): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\Item.cpp(93,30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\Item.cpp(95,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\Item.cpp(115,13): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+  main.cpp
+  SLR.cpp
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\SLR.cpp(75,15): warning C4305: “参数”: 从“int”到“_Elem”截断
+          with
+          [
+              _Elem=char
+          ]
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\SLR.cpp(75,11): warning C4309: “参数”: 截断常量值
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\SLR.cpp(177,22): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xutility(4588,14): error C3889: 对类类型“std::equal_to<void>”的对象的调用: 未找到匹配的调用运算符
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(210,31): message : 可能是“unknown-type std::equal_to<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xutility(4588,14): message : 未能使函数模板“unknown-type std::equal_to<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xutility(4588,14): message : 用下列模板参数:
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xutility(4588,14): message : “_Ty1=const Item &”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xutility(4588,14): message : “_Ty2=const Item &”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xutility(4603,101): message : 查看对正在编译的函数 模板 实例化“bool std::equal<_InIt1,_InIt2,std::equal_to<void>>(const _InIt1,const _InIt1,const _InIt2,_Pr)”的引用
+          with
+          [
+              _InIt1=std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<Item>>,std::_Iterator_base0>,
+              _InIt2=std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<Item>>,std::_Iterator_base0>,
+              _Pr=std::equal_to<void>
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\set(208,103): message : 查看对正在编译的函数 模板 实例化“bool std::equal<std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<Item>>,std::_Iterator_base0>,std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<Item>>,std::_Iterator_base0>>(const _InIt1,const _InIt1,const _InIt2)”的引用
+          with
+          [
+              _InIt1=std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<Item>>,std::_Iterator_base0>,
+              _InIt2=std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<Item>>,std::_Iterator_base0>
+          ]
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\SLR.cpp(159,23): message : 查看对正在编译的函数 模板 实例化“bool std::operator ==<Item,std::less<Item>,std::allocator<Item>>(const std::set<Item,std::less<Item>,std::allocator<Item>> &,const std::set<Item,std::less<Item>,std::allocator<Item>> &)”的引用
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): error C2678: 二进制“<”: 没有找到接受“const _Ty”类型的左操作数的运算符(或没有可接受的转换)
+          with
+          [
+              _Ty=Item
+          ]
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\SLR.cpp(11,6): message : 可能是“bool operator <(const State &,const State &)”[通过使用参数相关的查找找到]
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\SLR.cpp(16,6): message : 或    “bool operator <(const Edge &,const Edge &)”[使用参数相关的查找找到]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\queue(191,17): message : 或    “bool std::operator <(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)”: 无法从“const _Ty”推导出“const std::queue<_Ty,_Container> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\vector(2373,30): message : 或    “bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)”: 无法从“const _Ty”推导出“const std::vector<_Ty,_Alloc> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\stack(182,17): message : 或    “bool std::operator <(const std::stack<_Ty,_Container> &,const std::stack<_Ty,_Container> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::stack<_Ty,_Container> &,const std::stack<_Ty,_Container> &)”: 无法从“const _Ty”推导出“const std::stack<_Ty,_Container> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\deque(1725,17): message : 或    “bool std::operator <(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)”: 无法从“const _Ty”推导出“const std::deque<_Ty,_Alloc> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\map(653,17): message : 或    “bool std::operator <(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)”: 无法从“const _Ty”推导出“const std::multimap<_Kty,_Ty,_Pr,_Alloc> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\map(420,17): message : 或    “bool std::operator <(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)”: 无法从“const _Ty”推导出“const std::map<_Kty,_Ty,_Pr,_Alloc> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\tuple(693,27): message : 或    “bool std::operator <(const std::tuple<_Types...> &,const std::tuple<_Types...> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::tuple<_Types...> &,const std::tuple<_Types...> &)”: 无法从“const _Ty”推导出“const std::tuple<_Types...> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\set(444,17): message : 或    “bool std::operator <(const std::multiset<_Kty,_Pr,_Alloc> &,const std::multiset<_Kty,_Pr,_Alloc> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::multiset<_Kty,_Pr,_Alloc> &,const std::multiset<_Kty,_Pr,_Alloc> &)”: 无法从“const _Ty”推导出“const std::multiset<_Kty,_Pr,_Alloc> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\set(229,17): message : 或    “bool std::operator <(const std::set<_Kty,_Pr,_Alloc> &,const std::set<_Kty,_Pr,_Alloc> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::set<_Kty,_Pr,_Alloc> &,const std::set<_Kty,_Pr,_Alloc> &)”: 无法从“const _Ty”推导出“const std::set<_Kty,_Pr,_Alloc> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\memory(3545,30): message : 或    “bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)”: 无法从“const _Ty”推导出“const std::unique_ptr<_Ty,_Dx> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\memory(3539,30): message : 或    “bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)”: 无法从“const _Ty”推导出“const std::unique_ptr<_Ty,_Dx> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\memory(3481,17): message : 或    “bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法从“const _Ty”推导出“const std::unique_ptr<_Ty,_Dx> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\memory(1879,17): message : 或    “bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept”: 无法从“const _Ty”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\memory(1874,17): message : 或    “bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept”: 无法从“const _Ty”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\memory(1827,17): message : 或    “bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept”: 无法从“const _Ty”推导出“const std::shared_ptr<_Ty> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstring(5241,17): message : 或    “bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )”: 无法从“const _Ty”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstring(5236,17): message : 或    “bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法从“const _Ty”推导出“const _Elem *const ”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstring(5230,17): message : 或    “bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”: 无法从“const _Ty”推导出“const std::basic_string<_Elem,_Traits,_Alloc> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xutility(3599,5): message : 或    “bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”: 无法从“const _Ty”推导出“const std::move_iterator<_Iter> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xutility(1422,5): message : 或    “bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”: 无法从“const _Ty”推导出“const std::reverse_iterator<_BidIt> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\utility(387,27): message : 或    “bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)”
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : “bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)”: 无法从“const _Ty”推导出“const std::pair<_Ty1,_Ty2> &”的 模板 参数
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 尝试匹配参数列表“(const _Ty, const _Ty)”时
+          with
+          [
+              _Ty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xutility(1091,16): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<const std::less<Item>&,const _Kty&,const _Keyty&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Kty=Item,
+              _Keyty=Item,
+              _Pr=const std::less<Item> &,
+              _Ty1=const Item &,
+              _Ty2=const Item &
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xtree(994,20): message : 查看对正在编译的函数 模板 实例化“std::_Tree_find_result<std::_Tree_node<Item,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const”的引用
+          with
+          [
+              _Alloc=std::allocator<Item>,
+              _Kty=Item,
+              _Pr=std::less<Item>,
+              _Key=Item,
+              _Keyty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xtree(1001,33): message : 查看对正在编译的函数 模板 实例化“std::_Tree_find_result<std::_Tree_node<Item,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const”的引用
+          with
+          [
+              _Alloc=std::allocator<Item>,
+              _Kty=Item,
+              _Pr=std::less<Item>,
+              _Key=Item,
+              _Keyty=Item
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xtree(1219,1): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_node<Item,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<const Item&>(const Item &)”的引用
+          with
+          [
+              _Alloc=std::allocator<Item>,
+              _Kty=Item,
+              _Pr=std::less<Item>
+          ]
+D:\Software\Visual studio\IDE\VC\Tools\MSVC\14.34.31933\include\xtree(1219,30): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_node<Item,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<const Item&>(const Item &)”的引用
+          with
+          [
+              _Alloc=std::allocator<Item>,
+              _Kty=Item,
+              _Pr=std::less<Item>
+          ]
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\SLR.cpp(425,18): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<Item>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(const Item &)”的引用
+          with
+          [
+              _Kty=Item,
+              _Pr=std::less<Item>,
+              _Alloc=std::allocator<Item>
+          ]
+D:\桌面\知识点\编译原理\手写实验\高级语言SLR分析器\高级语言SLR分析器\SLR.cpp(425,13): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<Item>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(const Item &)”的引用
+          with
+          [
+              _Kty=Item,
+              _Pr=std::less<Item>,
+              _Alloc=std::allocator<Item>
+          ]
+  正在生成代码...

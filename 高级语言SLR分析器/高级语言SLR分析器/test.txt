@@ -1,0 +1,17 @@
+int myfunc ( ) {
+	int s = 0 ;
+	for ( int i = 0 ; i < n ; i = i + 1 ) {
+		s = s + i ;
+		if ( s > 10 ) {
+			break ;
+		} else {
+			continue ;
+		}
+	}
+	return s ;
+}
+int j = 0 ;
+while ( j < n ) {
+	s = s + 1 ;
+	j = s - 1 ;
+} $
